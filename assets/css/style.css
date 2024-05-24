@@ -435,7 +435,7 @@ header > .interface {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  /* gap: 2rem; */
   padding: 2% 0;
   vertical-align: top;
 }
@@ -452,11 +452,11 @@ header > .interface {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 19rem;
+  width: 15rem;
   background-color: var(--cor-de-fundo);
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px var(--cor-principal);
+  box-shadow: 2px 2px 2px 2px var(--cor-principal);
   gap: 1rem;
   min-height: 25rem;
   cursor: pointer;
@@ -688,6 +688,12 @@ footer p {
 
   .btn-abrir-menu i {
     font-size: 3rem;
+  }
+
+  /*  */
+
+  .apresentacao_section_projects {
+
   }
 }
 
